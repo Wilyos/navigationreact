@@ -87,6 +87,11 @@ function HomeTabs(){
         //tabBarStyle:{display:'none'}
         tabBarIcon: (tabInfo) => (<MaterialIcons name="zoom-out" size={25} />)
       }}/>
+      //tarea hacer el dashboardy que solo los rol 1 entrern 2 a contacts
+      <Tab.Screen name="DashBoard" component={DashBoard} options={{
+        //tabBarStyle:{display:'none'}
+        tabBarIcon: (tabInfo) => (<MaterialIcons name="fingerprint" size={25} />)
+      }} />
     </Tab.Navigator>
   )
 
